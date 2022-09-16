@@ -9,6 +9,6 @@ function load() {
   } else if (user === "admin" && pass === "root") {
     location.href = "home.html";
   } else {
-    return;
+    window.alert("Pls enter correct username and password");
   }
 }
