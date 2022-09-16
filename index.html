@@ -6,33 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Website</title>
-    <style>
-        .user,
-        .pass,
-        .btn {
-            text-align: center;
-            background-color: rgb(233, 233, 233);
-            display: flex;
-            content: center;
-            flex-direction: column;
-            justify-content: center;
-            grid: inherit;
-            line-height: 1.6;
-            color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
     <div>
-        Username <input type="text" class="user" placeholder="Username">
+        Username <input type="text" id="user" class="user" placeholder="Username">
     </div>
     <div>
-        Password<input type="password" class="pass" placeholder="Password">
+        Password <input type="password" id="pass" class="pass" placeholder="Password">
     </div>
     <div>
-        <button class="btn">Log in</button>
+        <button class="btn" type="button" onclick="load()">Log in</button>
     </div>
+    <script src="home.js">
+    </script>
 </body>
 
 </html>
