@@ -2,6 +2,16 @@
   margin: 10px;
   padding: 10px;
 }
+body{
+  background-image: url("01.jpg");
+}
+.container-sm {
+  max-width: 500px;
+  padding-top: 100px;
+}
+.card-body{
+  background-color: floralwhite;
+}
 .user,
 .pass {
   padding: 5px;

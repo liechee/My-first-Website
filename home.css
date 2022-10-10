@@ -1,0 +1,35 @@
+* {
+  margin: 10px;
+  padding: 10px;
+}
+body{
+  background-image: url("01.jpg");
+  /* background-repeat: no-repeat; */
+}
+.btn {
+  position: relative;
+  margin-left: 420px;
+}
+.modalButtons{
+  margin-left: 250px;
+}
+.container-sm,
+.container{
+  max-width: 500px;
+  position: center;
+}
+.container{
+  background-color: aliceblue;
+}
+.container ul li {
+  background-position: center left;
+  padding-left: 20px;
+  line-height: 30px;
+}
+.card-body{
+  padding: 20px;
+}
+.modal{
+  margin-top: 90px;
+position: center;
+}
