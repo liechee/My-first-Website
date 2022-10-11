@@ -1,11 +1,11 @@
-const addPerson = document.querySelector("#add");
-const personDetailsSection = document.querySelector("#person-details-section");
-const cancelAdd = document.querySelector("#cancel-add-btn");
-const saveBtn = document.querySelector("#save-btn");
-const firstNameTxt = document.querySelector("#first-name");
-const lastNameTxt = document.querySelector("#last-name");
-const personList = document.querySelector("#people-list");
-const list = document.querySelector("#container");
+const addPerson = document.getElementById("add");
+const personDetailsSection = document.getElementById("person-details-section");
+const cancelAdd = document.getElementById("cancel-add-btn");
+const saveBtn = document.getElementById("save-btn");
+const firstNameTxt = document.getElementById("first-name");
+const lastNameTxt = document.getElementById("last-name");
+const personList = document.getElementById("people-list");
+const list = document.getElementById("container");
 
 addPerson.addEventListener("click", () => {
   personDetailsSection.style.display = "block";
